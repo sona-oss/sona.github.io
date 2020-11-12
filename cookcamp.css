@@ -1,0 +1,208 @@
+body {
+    background-color:#f5f5dd;
+    margin:0px;
+}
+h2 {
+    color:#800000;
+}
+small {
+    color:#CCCCCC;
+}
+.logo {
+    color:#664433;
+    margin:0px;
+}
+.continue {
+    text-align:right;
+}
+.continue a {
+    color:#fc8833;
+    background-image: url(arrow.png);
+    background-repeat: no-repeat;
+    padding-left: 21px;
+    background-position: 0px 2px;
+}
+a {
+text-decoration: none;
+}
+ul{
+    list-style:none;
+    padding-left:5px;
+    margin:0px;
+}
+.menu {
+    color:#FFFFFF;
+    border-radius: 1em;
+    background-color:#99bb22;
+    font-size:20px;
+    padding-left:10px;
+}
+.menu img{
+    padding-top:3px;
+    padding-right:3px;
+}
+header {
+    background-color:white;
+    width:100%;
+    padding:0px;
+    border-bottom: solid 1px #000000;
+    min-width:960px;
+}
+header a {
+    color:#000000;
+}
+nav {
+   float:left;
+   width:200px;
+}
+.nav1 li:last-child {
+    border:none;
+}
+.nav2 li:last-child {
+    border:none;
+}
+.snav li {
+    background-image:url(arrow.png);
+    background-repeat:no-repeat;
+    padding-left:1.1em;
+    background-position:0 15px;
+    border-bottom:dotted 1px;
+    padding:10px;
+}
+.snav a {
+    display:block;
+    padding-left:11px;
+}
+.nav1 {
+   background-color:white;
+   border: solid 1px white;
+   margin-bottom:15px;
+   padding:10px;
+}
+.nav2 {
+   background-color:white;
+   border: solid 1px white;
+   padding:10px;
+}
+nav a {
+    color:#000000;
+}
+article{
+   float:left;
+   width:580px;
+   margin-left:10px;
+}
+article p {
+    margin-top:0px;
+}
+.article1 {
+   background-color:white;
+   border: solid 1px white;
+   margin-bottom:10px;
+   padding:10px;
+}
+.article1 ul {
+    display:flex;
+    padding:0px;
+    font-size:10px;
+    text-align:center;
+}
+.article1 img {
+    display:block;
+    margin:0 auto;
+}
+.article1 li {
+    flex:1;
+}
+.dishimg {
+    float:left;
+    width:260px;
+}
+.dishtext {
+    float:left;
+    width:280px;
+    margin-left:10px;
+    
+}
+/*.dishtext p:first-child*/
+
+.indent{
+    text-indent:16px;
+}
+h3 {
+    margin-top: 0px;
+    color:#664433;
+}
+section::after {
+   content: "";
+   display: block;
+   clear: both;
+}
+aside{
+   float:right;
+   width:154px;
+}
+footer{
+   background-color:white;
+   min-width:960px;
+   clear:both;
+   width:100%;
+   padding:0px;
+   border-top: solid 1px #000000;
+  }
+footer p {
+    text-align:center;
+    margin-bottom:0px;
+}
+.search {
+     float:right;
+}
+.headerleft {
+    float:left;
+}
+.headerright {
+    float:right;
+}
+.footermenu {
+    display:flex;
+    width:800px;
+    margin:0 auto;
+    padding:10px 0px;
+}
+.footermenu li {
+    flex:1;
+    text-align:center;
+    border-right:1px solid;
+    padding:0px;
+}
+.footermenu a {
+    display:block;
+}
+.footermenu li:last-child {
+    border-right:none;
+}
+.headermenu {
+    display:flex;
+    padding:10px;
+}
+.headermenu li {
+    flex:1;
+    text-align:center;
+    border-right:1px solid;
+}
+.headermenu a {
+    display:block;
+}
+.headermenu li:last-child {
+    border-right:none;
+}
+.W960 {
+    width:960px;
+    margin:0px auto;
+}
+.bigimage {
+    width:960px;
+}
+.clear {
+    clear:both;
+}
